@@ -1,0 +1,12 @@
+'https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range={data_range}&interval={data_interval}'.format(**locals())
+t = 'BATAINDIA'
+#u = getUrls('0d' '1m', t)
+symbol =  t + ".NS"
+data_range = '3d'
+data_interval = '60m'
+res = requests.get('https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range={data_range}&interval={data_interval}'.format(**locals()))
+data = res.json()
+asynic
+steak
+streak
+https://kite.zerodha.com/connect/login?api_key=ade436zjl80jflpc&sess_id=CFop55ld8UnQlW2G0LLErgFqjL4nDC64
